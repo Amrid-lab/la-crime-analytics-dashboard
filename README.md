@@ -1,68 +1,90 @@
-# Rshiny App
+# 🏙️ Los Angeles Crimes Analysis Application 💥
+# An R-Shiny Interactive Dashboard
 
-## Los Angeles Crimes Application 
+![R](https://img.shields.io/badge/R-blue) ![Shiny](https://img.shields.io/badge/Shiny-red) ![Data Visualization](https://img.shields.io/badge/DataVisualization-green) ![GitHub](https://img.shields.io/badge/GitHub-rele)
 
+## 📖 About
 
+This application offers an in-depth exploration of crime data in Los Angeles,
+providing a comprehensive analysis of trends, variations, and criminal 
+patterns prevalent within this metropolis.
+Its aim is to deliver a nuanced and contextualized understanding of 
+the city's criminal landscape through interactive visualizations and 
+data analysis tools.
 
-*This application offers an in-depth exploration of crime data in Los Angeles,
-  providing a comprehensive analysis of trends, variations, and criminal 
-  patterns prevalent within this metropolis.
-  Its aim is to deliver a nuanced and contextualized understanding of 
-  the city's criminal landscape through interactive visualizations and 
-  data analysis tools.*
-
-*View of application*
+## 📸 Project Screenshot
 ![DASHBOARD](https://github.com/doriankari/RshinyApp/assets/146330254/7e148bd2-2c4e-4fac-a900-4d62fbc1d170)
 
-## Getting Started
+## ✨ Features
 
-### Prerequisites
+- 📊 Interactive data visualization with R-Shiny
+- 🎯 Dynamic data filtering and date range selection
+- 📈 Comprehensive crime statistics and trends analysis
+- 🗺️ Multiple visualization types (charts, maps, histograms)
+
+## 🛠️ Technologies
 
 - R (version 3.6.0 or higher)
 - RStudio
-- Shiny and R packages
+- Shiny Framework
+- Data Visualization packages (ggplot2, leaflet, etc.)
 
-### Installation
+## 📦 Prerequisites
 
-1. Clone the repo:
+### Data Source
+[Los Angeles Crime Data](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data)
+
+## 🚀 Installation
+
+1. Clone the repository:
    ```sh
-   git clone [https://github.com/doriankari/RshinyApp.git]
+   git clone https://github.com/doriankari/RshinyApp.git
+   cd RshinyApp
    ```
-2. Download the dataset using this link [Crime-Data](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data)
 
-3. Download the repo, store the files in a folder and then create subfolders "www" in which you can put photos, "data" which will contain your data.
-   
-4. Open Packages.R : 
-check that you have the same packages as in packages.R if not below the command :
-```R
-install.packages('package')
-```
-Then don't forget to load it :
-```R
-library(package)
-```
-5. Run the "global.r" file, then change the path of the first line of code to access data.frame to your path (where "data" is stored).
+2. Download the crime dataset from the LA City website
 
-6. Launch the "app.R" file, replace the first 2 lines of the "source" path with your own (where you've stored the repo) so that the Packages.R and Global.R files run.
+3. Create subfolders:
+   ```sh
+   mkdir www   # for images
+   mkdir data  # for datasets
+   ```
 
-7. Run the application locally by opening the `crim_appli.R` file in RStudio and clicking 'Run App'. 
+4. Install Shiny and required packages:
+   ```R
+   install.packages(c("shiny", "ggplot2", "dplyr", "shinydashboard", "leaflet"))
+   ```
 
-## Application Structure
+5. Update the data path in `global.r` to point to your data folder
 
-- `app.R`: Defines the user and server interface
-- `global.R`: Contains the variables 
-- `Packages.R`: Includes all packages for build an application
-- `wwww` : Contains pictures
+6. Run the application:
+   ```R
+   shiny::runApp("app.R")
+   ``` 
 
-## Instructions 
+## 📁 Application Structure
+
+- `app.R`: Server and UI definitions
+- `global.R`: Global variables and data loading
+- `Packages.R`: Dependencies
+- `www`: Images and static assets
+
+## 📝 Usage
 
 Navigate through the tabs to access different analyses.
 Utilize dropdowns and buttons to customize your data exploration experience.
 Note: Please ensure your date range selection falls between 2020-01-01 and 2023-10-30 for accurate statistics.
 
-Explore, analyze, and gain valuable insights into the crime landscape of Los Angeles with the Los Angeles Crimes Application!
+## 📄 Project Information
 
-## Contact
+- 🎓 Developed as part of a data science project
+- 📅 Data covers period from 2020 to present
 
-- [My Linkedin](https://www.linkedin.com/in/dorian-amri-8685a2177/)
-- [Email](amri.dk@hotmail.com)
+## 📞 Contact
+
+- 👤 [My LinkedIn](https://www.linkedin.com/in/dorian-amri-8685a2177/)
+- 📧 [Email](mailto:amri.dk@hotmail.com)
+- 🔗 [Project Repository](https://github.com/doriankari/RshinyApp)
+
+## 📜 License
+This project is open source and available for educational purposes.
