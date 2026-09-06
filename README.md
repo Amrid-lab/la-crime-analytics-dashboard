@@ -13,7 +13,7 @@ the city's criminal landscape through interactive visualizations and
 data analysis tools.
 
 ## 📸 Project Screenshot
-![DASHBOARD](https://github.com/doriankari/RshinyApp/assets/146330254/7e148bd2-2c4e-4fac-a900-4d62fbc1d170)
+![DASHBOARD](https://github.com/Amrid-lab/la-crime-analytics-dashboard/assets/146330254/7e148bd2-2c4e-4fac-a900-4d62fbc1d170)
 
 ## ✨ Features
 
@@ -38,7 +38,7 @@ data analysis tools.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/doriankari/RshinyApp.git
+   git clone https://github.com/Amrid-lab/la-crime-analytics-dashboard.git
    cd RshinyApp
    ```
 
@@ -84,7 +84,7 @@ Note: Please ensure your date range selection falls between 2020-01-01 and 2023-
 
 - 👤 [My LinkedIn](https://www.linkedin.com/in/dorian-amri-8685a2177/)
 - 📧 [Email](mailto:amri.dk@hotmail.com)
-- 🔗 [Project Repository](https://github.com/doriankari/RshinyApp)
+- 🔗 [Project Repository](https://github.com/Amrid-lab/la-crime-analytics-dashboard)
 
 ## 📜 License
 This project is open source and available for educational purposes.
